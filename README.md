@@ -1,33 +1,33 @@
 # Google Meet Mute Toggle Chrome Extension
 
-## 概要
-このChrome拡張機能は、Google Meetでのマイクのミュート/ミュート解除をグローバルショートカットキーで切り替えることを可能にします。
+## Overview
+This Chrome extension allows you to toggle your microphone mute/unmute status in Google Meet using a global keyboard shortcut.
 
-## 機能
-- グローバルショートカットキーによるGoogle Meetのマイクミュート/ミュート解除の切り替え。
-- ショートカットキーはユーザーがカスタマイズ可能。
+## Features
+- Toggle Google Meet microphone mute/unmute with a global keyboard shortcut.
+- Customizable shortcut key by the user.
 
-## インストール方法
+## Installation
 
-1.  このリポジトリをクローンまたはダウンロードします。
+1.  Clone or download this repository.
     ```bash
     git clone https://github.com/your-username/google-meet-mute-toggle-extension.git
     ```
-2.  Chromeブラウザを開き、アドレスバーに `chrome://extensions` と入力してEnterを押します。
-3.  右上の「デベロッパーモード」をオンにします。
-4.  「パッケージ化されていない拡張機能を読み込む」ボタンをクリックします。
-5.  クローンまたはダウンロードしたリポジトリのディレクトリ（`google-meet-mute-toggle-extension`）を選択します。
+2.  Open your Chrome browser and type `chrome://extensions` in the address bar, then press Enter.
+3.  Turn on "Developer mode" in the top right corner.
+4.  Click the "Load unpacked" button.
+5.  Select the directory of the cloned or downloaded repository (`google-meet-mute-toggle-extension`).
 
-## ショートカットキーの設定
+## Setting up the Shortcut Key
 
-1.  `chrome://extensions` ページで、左上のメニューアイコン（三本線）をクリックし、「キーボード ショートカット」を選択します。
-2.  「Google Meet Mute Toggle」の項目を探します。
-3.  「Toggle mute in Google Meet」のショートカットキーの右側にある鉛筆アイコンをクリックし、お好みのショートカットキーを設定します。
-4.  ショートカットキーの適用範囲を「グローバル」に設定することで、Chromeがアクティブなウィンドウでなくても機能するようになります。
+1.  On the `chrome://extensions` page, click the menu icon (three horizontal lines) in the top left and select "Keyboard shortcuts".
+2.  Find the "Google Meet Mute Toggle" entry.
+3.  Click the pencil icon next to the "Toggle mute in Google Meet" shortcut and set your preferred shortcut key.
+4.  By setting the shortcut scope to "Global", it will function even when Chrome is not the active window.
 
-## 使用方法
-Google Meetの会議中に、設定したショートカットキーを押すと、マイクのミュート/ミュート解除が切り替わります。
+## Usage
+During a Google Meet call, press the configured shortcut key to toggle your microphone mute/unmute status.
 
-## 技術スタック
+## Tech Stack
 - JavaScript
 - Chrome Extensions API (Manifest V3)
