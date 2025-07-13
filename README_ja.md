@@ -11,7 +11,7 @@
 
 1.  このリポジトリをクローンまたはダウンロードします。
     ```bash
-    git clone https://github.com/your-username/google-meet-mute-toggle-extension.git
+    git clone https://github.com/simeji/google-meet-mute-toggle-extension.git
     ```
 2.  Chromeブラウザを開き、アドレスバーに `chrome://extensions` と入力してEnterを押します。
 3.  右上の「デベロッパーモード」をオンにします。
